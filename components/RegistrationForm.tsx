@@ -410,7 +410,7 @@ const RegistrationForm: React.FC = () => {
           
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div>
-            <label className="block text-gray-600 text-sm mb-1">Child&apos;s full name</label>
+            <label className="block text-gray-600 text-sm mb-1">Child full name</label>
               <input
                 type="text"
                 placeholder="Type first name here"
