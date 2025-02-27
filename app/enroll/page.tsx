@@ -4,8 +4,8 @@
 
 import React from 'react';
 import Hero from '@/components/Hero';
-import RegistrationForm from '@/components/RegistrationForm';
-// import Footer from '@/components/Footer';
+
+
 
 interface EnrollPageProps {
   heroProps: {
@@ -25,9 +25,7 @@ const EnrollPage: React.FC<EnrollPageProps> = ({ heroProps }) => {
         buttonText=""
         buttonLink=""
       />
-    <div className="min-h-screen bg-gray-100 py-8">
-      <RegistrationForm />
-    </div>
+   
       {/* <Footer /> */}
     </div>
   );
